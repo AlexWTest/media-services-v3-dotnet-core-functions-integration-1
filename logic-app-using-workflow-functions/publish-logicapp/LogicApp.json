@@ -39,12 +39,12 @@
         "southafricanorth",
         "southafricawest"
       ],
-      "defaultValue": "southeastasia"
+      "defaultValue": "easyus"
     },
     "LogicAppName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "raz-mediaservices-publish-workflow"
+      "defaultValue": "msamspoc-mediaservices-publish-workflow"
     }
   },
   "variables": {},
@@ -64,7 +64,7 @@
                   "streamingUrlScheme": "https"
                 },
                 "function": {
-                  "id": "/subscriptions/cd85d402-93c1-4339-af18-42930460489c/resourceGroups/raz-mediaservices-workflow-rg/providers/Microsoft.Web/sites/razamsv3functions/functions/GetAssetUrls"
+                  "id": "/subscriptions/05d7f3c0-2dc5-47fa-ac9e-2a79a92de6be/resourceGroups/amspoc/providers/Microsoft.Web/sites/amsv3vodfunctions-bgl43muvjohlw/functions/GetAssetUrls"
                 }
               },
               "runAfter": {
@@ -198,7 +198,7 @@
               "inputs": {
                 "body": "@concat(\r\n  '{\"assetName\": \"',\r\n  triggerBody()?['assetName'],\r\n  '\",',\r\n  variables('endDateTime'),\r\n  variables('startDateTime'),\r\n  variables('alternative-media-id'),\r\n  variables('contentKeyPolicyName'),\r\n  variables('contentKeys'),\r\n  variables('streamingLocatorId'),\r\n  '\"streamingPolicyName\": \"',\r\n  triggerBody()?['streamingPolicyName'],\r\n  '\"}')",
                 "function": {
-                  "id": "/subscriptions/cd85d402-93c1-4339-af18-42930460489c/resourceGroups/raz-mediaservices-workflow-rg/providers/Microsoft.Web/sites/razamsv3functions/functions/PublishAsset"
+                  "id": "/subscriptions/05d7f3c0-2dc5-47fa-ac9e-2a79a92de6be/resourceGroups/amspoc/providers/Microsoft.Web/sites/amsv3vodfunctions-bgl43muvjohlw/functions/PublishAsset"
                 }
               },
               "runAfter": {
