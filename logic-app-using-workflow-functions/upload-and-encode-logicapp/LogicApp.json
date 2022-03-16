@@ -2,20 +2,6 @@
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "videoindexer-v2_1_Connection_Name": {
-      "type": "string",
-      "defaultValue": "videoindexer-v2"
-    },
-    "videoindexer-v2_1_Connection_DisplayName": {
-      "type": "string",
-      "defaultValue": "RazViConnection"
-    },
-    "videoindexer-v2_1_api_key": {
-      "type": "securestring",
-      "metadata": {
-        "description": "The API Key for this api"
-      }
-    },
     "keyvault_1_Connection_Name": {
       "type": "string",
       "defaultValue": "keyvault"
