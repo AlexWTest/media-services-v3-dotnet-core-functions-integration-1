@@ -929,7 +929,7 @@
                 "interval": 1
               },
               "metadata": {
-                "JTJmbWV6emFuaW5l": "/staging"
+                "": "/staging"
               },
               "splitOn": "@triggerBody()"
             }
@@ -961,9 +961,7 @@
         "displayName": "LogicApp"
       },
       "identity": {
-        "type": "SystemAssigned",
-        "principalId": "302db542-daf8-4421-9a2a-745e2f5f6d98",
-        "tenantId": "c964ad62-c728-45fd-96cb-26908441630f"
+        "type": "SystemAssigned"
       },
       "apiVersion": "2016-06-01",
       "dependsOn": [
