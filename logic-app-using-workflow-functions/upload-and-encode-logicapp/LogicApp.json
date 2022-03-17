@@ -920,7 +920,7 @@
                 "method": "get",
                 "path": "/datasets/default/triggers/batch/onupdatedfile",
                 "queries": {
-                  "folderId": "JTJmbWV6emFuaW5l",
+                  "folderId": "",
                   "maxFileCount": 100
                 }
               },
@@ -929,7 +929,7 @@
                 "interval": 1
               },
               "metadata": {
-                "JTJmbWV6emFuaW5l": "/mezzanine"
+                "JTJmbWV6emFuaW5l": "/staging"
               },
               "splitOn": "@triggerBody()"
             }
