@@ -962,8 +962,8 @@
       },
       "identity": {
         "type": "SystemAssigned",
-        "principalId": "c56ec58e-e9bd-450f-898a-4ab59dafb055",
-        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+        "principalId": "302db542-daf8-4421-9a2a-745e2f5f6d98",
+        "tenantId": "c964ad62-c728-45fd-96cb-26908441630f"
       },
       "apiVersion": "2016-06-01",
       "dependsOn": [
