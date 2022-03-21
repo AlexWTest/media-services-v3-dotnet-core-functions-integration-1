@@ -28,5 +28,5 @@ Update the parameters found in the LogicApp.json of both projects
 
 See [here](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-azure-resource-manager-templates-overview) for instructions.
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAlexWTest%2Fmedia-services-v3-dotnet-core-functions-integration-1%2Fmain%2Flogic-app-using-workflow-functions%2Fupload-and-encode-logicapp%2FLogicApp.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/AlexWTest/media-services-v3-dotnet-core-functions-integration-1/main/logic-app-using-workflow-functions/publish-logicapp/LogicApp.json)
 
