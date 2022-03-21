@@ -39,7 +39,7 @@
         "southafricanorth",
         "southafricawest"
       ],
-      "defaultValue": "easyus"
+      "defaultValue": "eastus"
     },
     "LogicAppName": {
       "type": "string",
